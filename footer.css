@@ -1,0 +1,115 @@
+/* ============================================
+   FOOTER - Crafted by Justine ♡
+   ============================================ */
+
+footer {
+    background: linear-gradient(135deg, #305669 0%, #8ABEB9 100%);
+    color: #ffffff;
+    padding: 4rem 2rem 2rem;
+    margin-top: 4rem;
+    position: relative;
+    border-top: 4px solid var(--coral);
+    box-shadow: 0 -10px 40px rgba(48, 86, 105, 0.15);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-section h3 {
+    color: var(--mint);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-section h4 {
+    color: var(--mint);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-about p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.footer-nav a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    padding: 0.25rem 0;
+    display: inline-block;
+}
+
+.footer-nav a:hover {
+    color: var(--coral);
+    transform: translateX(5px);
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.footer-list li::before {
+    content: '✿';
+    position: absolute;
+    left: 0;
+    color: var(--coral);
+    font-size: 0.8rem;
+}
+
+.footer-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    margin: 2rem 0 1.5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

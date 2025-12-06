@@ -1,0 +1,17 @@
+/* ============================================
+   GREAT BOOKS PORTFOLIO - VERSION 2
+   Designed with love by Justine ♡
+   Color Palette: #B7E5CD #8ABEB9 #305669 #C1785A
+   ============================================ */
+
+/* Import all modular CSS files */
+@import url('variables.css');
+@import url('base.css');
+@import url('typography.css');
+@import url('navigation.css');
+@import url('hero.css');
+@import url('components.css');
+@import url('footer.css');
+@import url('animations.css');
+@import url('responsive.css');
+

@@ -1,0 +1,43 @@
+/* ============================================
+   BASE & RESET STYLES
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+::-moz-selection {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(183, 229, 205, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(138, 190, 185, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(193, 120, 90, 0.08) 0%, transparent 30%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2.5rem 4rem;
+}

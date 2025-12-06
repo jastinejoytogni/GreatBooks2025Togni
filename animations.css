@@ -1,0 +1,72 @@
+/* ============================================
+   ANIMATIONS & UTILITIES - Justine ♡
+   ============================================ */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Scroll to Top Button */
+.scroll-indicator {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: var(--white);
+    border: 3px solid var(--teal);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(48, 86, 105, 0.15);
+    transition: all 0.2s ease;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.scroll-indicator.visible {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.scroll-indicator:hover {
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(48, 86, 105, 0.2);
+}

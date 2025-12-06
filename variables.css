@@ -1,0 +1,32 @@
+/* ============================================
+   VARIABLES & COLOR PALETTE
+   Designed with love by Justine ♡
+   ============================================ */
+
+:root {
+    /* Justine's Color Palette */
+    --primary-color: #305669;        /* Deep navy - sophistication */
+    --secondary-color: #8ABEB9;      /* Teal sage - elegance */
+    --accent-color: #C1785A;         /* Terracotta coral - warmth */
+    --accent-light: #B7E5CD;         /* Light mint - freshness */
+    --accent-dark: #264452;          /* Darker navy */
+    --text-color: #2a3d47;           /* Soft dark for readability */
+    --light-bg: #f0f9f5;             /* Soft mint white background */
+    --white: #ffffff;
+    --border-color: #B7E5CD;
+    --mint: #B7E5CD;
+    --teal: #8ABEB9;
+    --navy: #305669;
+    --coral: #C1785A;
+    
+    /* Shadows - softer, more elegant */
+    --shadow: 0 4px 12px rgba(48, 86, 105, 0.12);
+    --shadow-hover: 0 8px 24px rgba(48, 86, 105, 0.18);
+    
+    /* Gradients - Justine's signature look */
+    --gradient-primary: linear-gradient(135deg, #305669 0%, #8ABEB9 100%);
+    --gradient-accent: linear-gradient(135deg, #C1785A 0%, #8ABEB9 100%);
+    --gradient-soft: linear-gradient(135deg, #B7E5CD 0%, #f0f9f5 100%);
+    --gradient-mint: linear-gradient(135deg, #B7E5CD 0%, #8ABEB9 100%);
+    --gradient-warm: linear-gradient(135deg, #C1785A 0%, #d4937e 100%);
+}
