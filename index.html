@@ -1,0 +1,871 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justine's Literary Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global-v2.css" />
+  </head>
+  <body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      ↑
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="nav-link">Literary Analyses ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="#analysis6">Psalm 23 and Job 38</a></li>
+              <li>
+                <a href="#analysis1">The Unlucky Weaver</a>
+              </li>
+              <li><a href="#analysis2">Cupid and Psyche</a></li>
+              <li><a href="#analysis5">A Rose for Emily</a></li>
+              <li><a href="#analysis3">Kulakog and Tilmag</a></li>
+              <li><a href="#analysis4">Morella</a></li>
+            </ul>
+          </li>
+          <li><a href="#reflection" class="nav-link">Final Reflection</a></li>
+          <li><a href="#summary" class="nav-link">Summary of Learning</a></li>
+        </ul>
+        <div class="logo">✿ Justine's Literary Portfolio</div>
+        <button class="nav-toggle" id="navToggle">☰</button>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-decoration">
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+            <div class="geometric-shape shape-4"></div>
+          </div>
+          <div class="hero-content">
+            <h1 class="fade-in">Justine's Literary Journey</h1>
+            <div class="hero-subtitle">
+              Exploring Literature, Art and Human Experience
+            </div>
+          </div>
+        </div>
+
+        <div class="content-box fade-in">
+          <h2>Introduction</h2>
+
+          <!-- Justine's Unique Magazine-Style Layout -->
+          <div class="justine-intro-layout">
+            <!-- Featured Card - About Me -->
+            <div class="featured-card">
+              <div class="featured-badge">✿ About Me</div>
+              <h3>My Journey as a Reader</h3>
+              <p>
+                I’ve always loved reading because it lets me discover new
+                places, ideas people. Before taking Great Books, I read mostly
+                for fun. This subject changed that. It helped me slow down,
+                notice important details and think about what stories are really
+                trying to say.
+                <br /><br />
+                I chose this course because I wanted to understand why certain
+                books are considered meaningful and how they continue to inspire
+                others. Along the way, I learned how stories can show real-life
+                struggles, beliefs and lessons.
+                <br /><br />
+                Now, I read with more curiosity. Instead of just following the
+                plot, I try to understand the message behind it and how it
+                relates to everyday life.
+              </p>
+              <div class="card-decoration"></div>
+            </div>
+
+            <!-- Side Cards Container -->
+            <div class="side-cards">
+              <div class="elegant-card course-card">
+                <h3>About the Course</h3>
+                <p>
+                  Great Books is a course that explores important literary works
+                  from different cultures, time periods and styles. Instead of
+                  just reading stories for their plots, we learn to look deeper
+                  and understand the ideas behind them.
+                  <br /><br />
+                  We discuss how books reflect society, question traditions and
+                  express different views about life. We also learn how to read
+                  carefully, write clearly and share our thoughts with others.
+                  <br /><br />
+                  Through this course, I discovered how literature helps us
+                  understand people and the world better. It showed me that
+                  stories are more than entertainment—they can shape how we
+                  think and how we see real-life issues.
+                </p>
+              </div>
+
+              <div class="elegant-card purpose-card">
+                <h3>Purpose of This Portfolio</h3>
+                <p>
+                  This digital portfolio represents my intellectual journey
+                  through Great Books, showcasing six comprehensive literary
+                  analyses that demonstrate my growth as a critical reader and
+                  analytical thinker. Each analysis applies different
+                  theoretical frameworks to examine how literature illuminates
+                  the complexities of human experience, social structures and
+                  cultural values. Through this collection, I demonstrate my
+                  ability to engage deeply with texts, construct evidence-based
+                  arguments and articulate sophisticated interpretations that
+                  reveal the enduring significance of great literature.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Critical Lenses - Hexagon/Honeycomb Style -->
+          <div class="lenses-section">
+            <h3 class="lenses-title">Critical Lenses that I Explored</h3>
+            <div class="honeycomb-grid">
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">🔍</span>
+                  <strong>Formalist</strong>
+                  <p>Structure, style & narrative techniques</p>
+                </div>
+              </div>
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">👥</span>
+                  <strong>Feminist</strong>
+                  <p>Gender, power & patriarchal structures</p>
+                </div>
+              </div>
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">⚖️</span>
+                  <strong>Marxist</strong>
+                  <p>Class conflict & social hierarchies</p>
+                </div>
+              </div>
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">🧠</span>
+                  <strong>Psychoanalytic</strong>
+                  <p>Unconscious mind & motivations</p>
+                </div>
+              </div>
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">🌟</span>
+                  <strong>Archetypal</strong>
+                  <p>Universal symbols & mythic patterns</p>
+                </div>
+              </div>
+              <div class="honey-cell">
+                <div class="cell-inner">
+                  <span class="cell-icon">📖</span>
+                  <strong>Reader-Response</strong>
+                  <p>Active meaning construction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Literary Analysis 1 -->
+    <section id="analysis1" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 2</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Archetypal Criticism</span>
+            <span class="story-title">The Unlucky Weaver by Panchatantra</span>
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="unluckyWeaverCache.jpg" alt="The Crow and the Snake" />
+          </div>
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              "The Unlucky Weaver" tells the story of Somilaka, a skilled but
+              poor cloth-weaver who leaves his hometown in search of success.
+              Despite earning wealth in another city, his money is mysteriously
+              taken during his journey by Destiny. Repeatedly losing his
+              earnings, Somilaka struggles with despair, nearly ending his life.
+              Ultimately, Destiny grants him a boon but instructs him to observe
+              two merchants to understand the value of wealth. Learning that
+              happiness depends on enjoying what one has, Somilaka chooses only
+              as much money as he can fully appreciate, returning home content
+              with his life and earnings.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p>Key Elements Shown in the Text</p>
+            <ul>
+              <li>
+                <strong>Somilaka’s Industriousness</strong> – Highlights the
+                value of hard work and dedication, even in the face of repeated
+                loss.
+              </li>
+              <li>
+                <strong>Destiny and Action</strong> – Represent forces beyond
+                human control that regulate reward and consequences.
+              </li>
+              <li>
+                <strong>Comparison of Two Merchants</strong> – Demonstrates that
+                wealth alone does not guarantee happiness character and
+                generosity determine a fulfilling life.
+              </li>
+              <li>
+                <strong>Contentment</strong> – Somilaka’s final choice shows the
+                importance of appreciating what one can enjoy rather than
+                seeking excessive riches.
+              </li>
+            </ul>
+
+            <p>
+              A moral or symbolic reading emphasizes human effort balanced with
+              acceptance of destiny. Somilaka’s journey illustrates
+              perseverance, the consequences of desire and the ultimate
+              realization that true happiness comes from contentment and
+              understanding the proper use of wealth. The story uses repetition,
+              dialogue with Destiny and contrasting characters to teach lessons
+              about effort, fortune and the wisdom of moderation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis2" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 3</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Archetypal / Allegorical Lens</span>
+            <span class="story-title">Cupid and Psyche by Apuleius</span>
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="CupidPsycheCache.jpg" alt="Cupid and Psyche" />
+          </div>
+
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              Psyche is a princess whose beauty becomes so famous that people
+              start admiring her more than the goddess of beauty, Venus. Feeling
+              jealous, Venus orders her son Cupid to make Psyche fall in love
+              with a horrible creature. Instead, Cupid accidentally falls in
+              love with her himself. Psyche is taken to a magical palace, where
+              she lives with a husband she is forbidden to see. Although she is
+              treated with love, she begins to doubt and grows curious. Her
+              sisters convince her to break the rule, so she secretly looks at
+              him. When she discovers he is Cupid, she accidentally injures him,
+              causing him to leave.
+              <br /><br />
+              Determined to win him back, Psyche travels far and faces harsh
+              trials given by Venus. With help from the gods and even nature,
+              she completes each task. In the end, Cupid rescues her, makes her
+              immortal and they marry. Psyche becomes a goddess, welcomed among
+              the divine.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p><strong>Archetypes and Symbols in the Story</strong></p>
+            <ul>
+              <li>
+                <strong>Psyche as the Soul</strong> – The name “Psyche” means
+                “soul.” Her journey from a suffering mortal to a divine being
+                shows how the soul grows through challenges, mistakes and
+                perseverance. Like Psyche, people learn and mature through both
+                pain and hope.
+              </li>
+              <li>
+                <strong>Cupid as Love and Guide</strong> – Cupid represents love
+                that leads the soul toward growth. Psyche cannot see him at
+                first, showing how love, trust and faith are often invisible but
+                deeply felt. Love becomes a guide, not just a feeling.
+              </li>
+              <li>
+                <strong>Trials as Inner Challenges</strong> – The tasks from
+                Venus represent emotional and personal struggles. Psyche’s
+                patience and humility show what we need to overcome our own
+                fears, doubts and weaknesses.
+              </li>
+              <li>
+                <strong>Transformation into Immortality</strong> – Psyche
+                becoming a goddess symbolizes a reward after growth. It suggests
+                that enduring hardships with love and perseverance can lead to a
+                better, stronger version of ourselves.
+              </li>
+            </ul>
+
+            <p>
+              In the end, <em>Cupid and Psyche</em> is more than a romantic
+              tale. It shows the soul’s journey toward maturity through trust,
+              sacrifice and love. The story teaches that growth is not always
+              easy it requires patience, faith and resilience. Love, when
+              genuine and trusting, becomes a force that transforms a person
+              from the inside out.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis3" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 5</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Marxist Criticism</span>
+            <span class="story-title"
+              >Kulakog and Tilmag: A Philippine Folktale</span
+            >
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="kulakogCache.jpg" alt="Kulakog and Tilmag" />
+          </div>
+
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              The folktale tells the story of two animals, Kulakog and Tilmag,
+              who live in the same place but behave very differently. Tilmag
+              knows how to provide for herself and actively gathers food, while
+              Kulakog refuses to work and relies on others to survive. Even when
+              Tilmag prepares for the future, Kulakog continues to depend on
+              her. In the end, Tilmag’s effort helps her survive, while Kulakog
+              suffers the consequences of depending on someone else’s labor.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p><strong>Social and Economic Themes</strong></p>
+            <ul>
+              <li>
+                <strong>Tilmag as the Laborer</strong> – She represents the
+                working class, the people who produce and sustain society
+                through effort and skill.
+              </li>
+              <li>
+                <strong>Kulakog as the Dependent Class</strong> – Kulakog
+                symbolizes individuals who benefit from others’ labor without
+                contributing. In a Marxist view, this mirrors groups who profit
+                from resources and labor they do not produce.
+              </li>
+              <li>
+                <strong>The Value of Labor</strong> – The story highlights how
+                survival and progress depend on the worker. Without Tilmag’s
+                effort, there would be nothing for Kulakog to take advantage of.
+              </li>
+              <li>
+                <strong>Consequences of Exploitation</strong> – Kulakog’s
+                suffering at the end reflects how exploitation eventually
+                fails—those who rely on others’ work without giving anything
+                back will face instability and loss.
+              </li>
+            </ul>
+
+            <p>
+              In a Marxist lens, <em>Kulakog and Tilmag</em> is more than a
+              warning about laziness. It shows how unfair relationships arise
+              when some benefit without working. The tale emphasizes that labor
+              is valuable and essential and that a just society should respect
+              the people who contribute to its survival. It reminds us that
+              inequality grows when work is ignored and that communities become
+              stronger when effort is shared rather than exploited.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis4" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 6</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Reader Response Criticism</span>
+            <span class="story-title">Morella by Edgar Allan Poe</span>
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="morellaCache.jpg" alt="Morella" />
+          </div>
+
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              The story follows a man who marries Morella, a woman deeply
+              interested in questions about the soul and what happens after
+              death. She spends her life studying mysterious ideas, which slowly
+              begins to unsettle her husband. Before she dies, Morella speaks
+              about the soul returning after death. Later, the man’s daughter
+              grows up to look and act exactly like her, raising fear in his
+              mind. When the child dies, he realizes that she might have been
+              Morella reborn. The story leaves readers wondering whether this
+              rebirth is supernatural or a result of the narrator’s guilt and
+              obsession.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p><strong>How Readers Shape the Meaning</strong></p>
+            <ul>
+              <li>
+                <strong>The Fear of Morella</strong> – Readers may feel uneasy
+                about her intense interest in mysterious knowledge. Some may
+                admire her intelligence others may see her as frightening or
+                powerful.
+              </li>
+              <li>
+                <strong>The Daughter’s Identity</strong> – Whether she is a
+                reincarnation or just a reminder depends on the reader’s belief.
+                The text never fully confirms either possibility.
+              </li>
+              <li>
+                <strong>The Narrator’s Perspective</strong> – Readers may
+                question if the narrator is reliable. Is he telling the truth,
+                or is his fear shaping the story and how we interpret it?
+              </li>
+              <li>
+                <strong>Death and Return</strong> – For some, the story may feel
+                like a horror tale about a soul returning. Others may see it as
+                the narrator’s guilt haunting him through the child.
+              </li>
+            </ul>
+
+            <p>
+              Through a Reader Response lens, <em>Morella</em> becomes a story
+              shaped by our personal beliefs and emotions. The horror works not
+              because the narrator explains everything, but because he leaves us
+              uncertain. Readers bring their own fears, curiosity and
+              imagination, making the mystery of identity and rebirth feel real
+              or psychological depending on how they interpret it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Literary Analysis 4 -->
+    <section id="analysis5" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 4</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Psychoanalytic Criticism</span>
+            <span class="story-title"
+              >A Rose for Emily by William Faulkner</span
+            >
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="emilyCache.jpg" alt="A Rose for Emily" />
+          </div>
+
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              “A Rose for Emily” tells the story of Emily Grierson, a woman who
+              grows up under the strict control of her father. After his death,
+              Emily isolates herself from the world and refuses to accept
+              change. Later, she spends time with Homer Barron, but their
+              relationship remains uncertain and troubling. When Emily dies, the
+              townspeople discover Homer’s dead body hidden in one of her
+              rooms—and a strand of Emily’s hair beside it. This shocking
+              revelation shows how her fear of losing people led her to hold on
+              to love in a disturbing, desperate way. The story reveals how
+              loneliness, trauma and control can slowly break a person’s mind.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p><strong>Psychological Symbols and Meanings</strong></p>
+            <ul>
+              <li>
+                <strong>Emily as the Repressed Self</strong> – She represents a
+                person trapped by strict control and emotional suppression. Her
+                actions show how unresolved grief and fear can shape behavior in
+                unhealthy ways.
+              </li>
+              <li>
+                <strong>The House</strong> – Much like Emily’s mind, the house
+                is old, sealed off and full of secrets. Its decay mirrors her
+                emotional breakdown.
+              </li>
+              <li>
+                <strong>Homer Barron’s Corpse</strong> – The body symbolizes
+                Emily’s extreme refusal to let go of someone she loves. Keeping
+                him suggests that love, when mixed with fear and control, can
+                turn into obsession.
+              </li>
+              <li>
+                <strong>The Rose (in the title)</strong> – The “rose” can be
+                seen as a symbol of sympathy or pity. It quietly acknowledges
+                her sad, hidden suffering and the loneliness the town never
+                truly understood.
+              </li>
+            </ul>
+
+            <p>
+              From a Psychoanalytic lens, Emily’s story becomes a tragedy of a
+              mind shaped by strict upbringing, emotional repression and fear of
+              abandonment. Her desperate attempt to control the people she loves
+              reflects a deep need for security—one that ultimately leads to
+              isolation, denial and a disturbing attachment to the past. Her
+              actions, while shocking, come from a lifetime of emotional wounds
+              that were never healed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Literary Analysis 6 -->
+    <section id="analysis6" class="section">
+      <div class="container">
+        <div class="analysis-header">
+          <h1>Literary Analysis 1</h1>
+          <div class="analysis-meta">
+            <span class="lens-badge">Formalist Criticism</span>
+            <span class="story-title">Psalm 23 and Job 38, The Bible</span>
+          </div>
+        </div>
+
+        <div class="unified-analysis-card">
+          <div class="analysis-image-float">
+            <img src="jobPsalmCache.jpg" alt="Psalm 23 and Job 38" />
+          </div>
+          <div class="analysis-content">
+            <h2>Summary</h2>
+            <p>
+              Psalm 23 shows trust in God as a caring shepherd who leads,
+              protects and provides for His people. Even when walking “through
+              the valley of the shadow of death,” the believer does not fear,
+              because God gives guidance, safety and comfort.
+            </p>
+            <p>
+              Job 38 is part of God’s response to Job after his suffering.
+              Instead of directly explaining Job’s pain, God asks questions
+              about creation to show that His wisdom and power are far greater
+              than human understanding.
+            </p>
+
+            <h2>Analysis and Interpretation</h2>
+            <p>Key Elements Shown in the Text</p>
+            <ul>
+              <li>
+                <strong>Shepherd (Psalm 23)</strong> – Shows care, guidance and
+                protection.
+              </li>
+              <li>
+                <strong>Valley of Shadows (Psalm 23)</strong> – Shows danger,
+                struggles, or death that one may face in life.
+              </li>
+              <li>
+                <strong>God’s Questions (Job 38)</strong> – Show human limits
+                and God’s wisdom.
+              </li>
+              <li>
+                <strong>Nature Imagery (Job 38)</strong> – Describes seas,
+                mountains and weather to show God’s power and creativity.
+              </li>
+            </ul>
+            <p>
+              A formalist reading looks at how words, images and structure
+              create meaning. The strong imagery of a shepherd in Psalm 23
+              builds comfort and trust, while the powerful questions in Job 38
+              create a tone of awe and humility. These literary choices make the
+              messages of guidance and dependence on God clear and emotional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary of Learning Section -->
+    <section id="summary" class="section">
+      <div class="container">
+        <h1>Summary of Learning</h1>
+
+        <div class="learning-intro">
+          <p>
+            By reading and analyzing six different stories, I have learned a lot
+            about people, society and the way stories can teach lessons. Here
+            are the main themes and insights I gained from this experience.
+          </p>
+        </div>
+
+        <!-- Card Grid Layout -->
+        <div class="reflection-grid">
+          <div class="reflection-card">
+            <div class="card-icon">💭</div>
+            <div class="card-number">01</div>
+            <h2>Insights on Human Experience</h2>
+            <p>
+              Across the six texts I studied, a common theme is that life is
+              full of challenges and choices. The stories, whether about love,
+              loss, identity, or inner struggles, show how people try to
+              understand themselves while facing uncertainty. Characters
+              encounter tests that push them to grow, rethink beliefs and
+              confront difficult truths. Themes like resilience, morality and
+              emotional struggle appear repeatedly. These works show that human
+              experience is shaped by both inner feelings and the world around
+              us.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">🌍</div>
+            <div class="card-number">02</div>
+            <h2>Society and Culture</h2>
+            <p>
+              These texts show how society and culture shape the way people
+              think and act. Through different times and places, they reveal how
+              rules, traditions, social classes and institutions influence what
+              people can or cannot do. Many stories highlight unfair treatment
+              based on gender, class, or status, where some benefit from
+              privilege while others struggle. By showing characters who follow,
+              resist, or suffer under these rules, the texts illustrate that
+              culture can guide us but also limit us. Literature not only
+              reflects society but encourages readers to think critically about
+              the world around them.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">🔍</div>
+            <div class="card-number">03</div>
+            <h2>Theme: The Struggle for Identity</h2>
+            <p>
+              A common theme is the search for personal identity. Characters
+              often question their place in society, face inner conflicts, or
+              reconsider their beliefs. They may resist expectations, challenge
+              traditional roles, or try to discover their purpose. These stories
+              show that identity is not fixed it grows from experiences,
+              relationships and the pressures of the world around us.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">⚖️</div>
+            <div class="card-number">04</div>
+            <h2>Theme: Power and Social Inequality</h2>
+            <p>
+              Another key theme is how power and social inequality shape
+              people's lives. Many stories show how class, gender and authority
+              influence choices and limit freedom. Characters often face tension
+              between those in power and those who are marginalized. These texts
+              reveal societal systems that favor a few while disadvantaging
+              others and show how people respond—whether by complying,
+              resisting, or being affected by these structures.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">⚡</div>
+            <div class="card-number">05</div>
+            <h2>Theme: Change Through Conflict</h2>
+            <p>
+              Conflict whether internal, interpersonal, or societal is another
+              major theme. Characters encounter challenges that push them to
+              adapt, grow and see life differently. These struggles help them
+              understand justice, responsibility, truth and human nature. In
+              these stories, change is gradual, emerging through effort,
+              reflection and resilience rather than sudden events.
+            </p>
+          </div>
+
+          <div class="reflection-card highlight-card">
+            <div class="card-icon">✨</div>
+            <div class="card-number">06</div>
+            <h2>Key Realizations</h2>
+            <p>
+              Studying these texts together revealed recurring patterns of human
+              behavior across different cultures and time periods. Despite their
+              diverse backgrounds, the stories all explore universal questions
+              about identity, power and morality. I was struck by how much
+              society shapes personal choices and how characters often face
+              hidden struggles shaped by rules and expectations beyond their
+              control. This perspective helped me see that literature is not
+              just about individual stories it reflects broader social forces. I
+              also realized that conflict often drives growth, showing that
+              meaningful change arises through challenges rather than comfort.
+              Overall, these works deepened my understanding of human complexity
+              and the factors that shape who we become.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Reflection Section -->
+    <section id="reflection" class="section">
+      <div class="container">
+        <h1>Final Reflection</h1>
+
+        <div class="learning-intro">
+          <p>
+            Looking back on my time in the Great Books course, I have grown a
+            lot as a reader, thinker and storyteller. This reflection shows how
+            my understanding of stories has changed and how this course has
+            influenced the way I see and think about the world.
+          </p>
+        </div>
+
+        <!-- Card Grid Layout -->
+        <div class="reflection-grid">
+          <div class="reflection-card">
+            <div class="card-icon">📚</div>
+            <div class="card-number">01</div>
+            <h2>Evolution of My Literary Understanding</h2>
+            <p>
+              This Great Books course transformed the way I approach literary
+              analysis. At first, I focused mostly on plot and surface-level
+              events, but engaging with various critical lenses helped me
+              analyze literature more deeply. I learned to examine
+              characterization, symbols, themes and underlying ideologies.
+              Literature revealed multiple layers of meaning and I became an
+              active reader who questions texts, considers authorial choices,
+              and connects works to broader social, philosophical and
+              psychological contexts. This course strengthened my ability to
+              interpret evidence, understand human experience and see how
+              stories reflect complex social dynamics.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">🧩</div>
+            <div class="card-number">02</div>
+            <h2>Most Challenging Lens</h2>
+            <p>
+              The Psychoanalytic lens challenged me the most. It required
+              exploring characters' hidden emotions, fears and desires, which
+              are sometimes unknown even to themselves. Initially, linking these
+              insights to story events was confusing. By revisiting works like
+              <em>A Rose for Emily</em> and identifying clear examples of
+              obsession or fear, I learned to apply this lens effectively. It
+              helped me recognize the inner struggles of characters and
+              understand their behavior on a deeper level.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">💡</div>
+            <div class="card-number">03</div>
+            <h2>Most Insightful Lens</h2>
+            <p>
+              The Reader Response lens was the most enlightening. It emphasized
+              that reading is shaped by personal reactions. While reading
+              <em>Morella</em>, my feelings of fear and curiosity influenced my
+              interpretation. This lens taught me to notice my responses and
+              appreciate that different readers may interpret the same text in
+              unique ways. I plan to continue using this approach in the future.
+            </p>
+          </div>
+
+          <div class="reflection-card">
+            <div class="card-icon">🌟</div>
+            <div class="card-number">04</div>
+            <h2>Impact on Thinking, Values and Worldview</h2>
+            <p>
+              Reading these texts broadened my perspective on life, society and
+              human nature. Stories like <em>Cupid and Psyche</em> and
+              <em>The Crow and the Snake</em> encouraged reflection on love,
+              morality and intelligence. Texts such as <em>Psalm 23</em> and
+              <em>Job 38</em> highlighted fairness, resilience and spiritual
+              growth. These readings made me more empathetic, thoughtful and
+              aware of human struggles, showing literature as a tool to
+              understand people, society and myself.
+            </p>
+          </div>
+
+          <div class="reflection-card highlight-card">
+            <div class="card-icon">🎓</div>
+            <div class="card-number">05</div>
+            <h2>Final Thoughts</h2>
+            <p>
+              This course was an invaluable learning experience. It encouraged
+              critical thinking and deep reflection on stories. Exploring
+              different lenses and diverse texts showed me that literature is
+              more than entertainment—it teaches lessons about human nature,
+              society and life. I will carry these insights forward, applying
+              them to how I read, think and understand the world beyond the
+              classroom.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section footer-about">
+            <h3>Justine's Literary Portfolio</h3>
+            <p>
+              Exploring the depths of great literature through diverse critical
+              lenses and thoughtful analysis.
+            </p>
+          </div>
+
+          <div class="footer-section footer-links">
+            <h4>Quick Links</h4>
+            <nav class="footer-nav">
+              <a href="#home">Home</a>
+              <a href="#analysis1">Literary Analyses</a>
+              <a href="#reflection">Final Reflection</a>
+              <a href="#summary">Summary of Learning</a>
+            </nav>
+          </div>
+
+          <div class="footer-section footer-contact">
+            <h4>Critical Lenses</h4>
+            <ul class="footer-list">
+              <li>Formalist Criticism</li>
+              <li>Archetypal Criticism</li>
+              <li>Marxist Criticism</li>
+              <li>Psychoanalytic Criticism</li>
+              <li>Reader Response</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2025 Justine's Literary Portfolio • Designed with love and
+            literature
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
